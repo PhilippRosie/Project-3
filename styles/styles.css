@@ -5,6 +5,7 @@
 }
 
 body {
+    max-width: 1600px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -26,7 +27,8 @@ header {
 .navbar {
     list-style: none;
     display: flex;
-    margin-top: 48px;
+    margin-top: 38px;
+    margin-right: 480px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -36,11 +38,53 @@ header {
     text-align: center;
     letter-spacing: 0.02em;
     color: #1B0A42;  
+    cursor: pointer;
 }
 
 .navbar a {
-    padding: 0 38px;
+    padding: 0 28px;
     
+}
+
+.sign-in-btn {
+    margin-top: 48px;
+    margin-right: 40px;
+    display: inline-block;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.sign-up-btn {
+    margin-top: 30px;
+    margin-right: 68px;
+    width: 120px;
+    height: 60px;
+    display: inline-block;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #4F56F1;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
 }
 
 section {
@@ -97,6 +141,11 @@ section {
     color: #9A9A9A;
 }
 
+.yoga-women {
+    margin-top: 186px;
+    margin-left: 115px;
+}
+
 .learn-more-btn {
     margin-top: 50px;
     margin-left: 200px;
@@ -108,45 +157,6 @@ section {
     background: #4F56F1;
     border-radius: 6px;
     border: none;
+    cursor: pointer;
 }
 
-
-
-.sign-in-btn {
-    margin-top: 48px;
-    margin-right: 40px;
-    display: inline-block;
-    float: right;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #1B0A42;
-    border: none;
-    background: transparent;
-}
-
-.sign-up-btn {
-    margin-top: 30px;
-    margin-right: 68px;
-    width: 120px;
-    height: 60px;
-    display: inline-block;
-    float: right;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-    background: #4F56F1;
-    border-radius: 6px;
-    border: none;
-}
